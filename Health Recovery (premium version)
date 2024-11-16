@@ -30,8 +30,8 @@ local function regenerateHealth()
             break
         end
         
-        -- Wait for 1 millisecond before the next regeneration
-        wait(0.001)
+        -- Wait for 100 millisecond before the next regeneration
+        wait(0.1)
     end
 end
 
